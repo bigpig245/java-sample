@@ -7,20 +7,16 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.experimental.FieldDefaults;
 
+import java.util.List;
+
 @Data
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
 @FieldDefaults(level = AccessLevel.PRIVATE)
-public class CategoryDto {
+public class ChapterDto {
     String name;
-    String title;
     String path;
+    List<PageDto> pages;
 
-    public void print(){
-        System.out.println("x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x");
-        System.out.println("Name: " + name);
-        System.out.println("Title: " + title);
-        System.out.println("Path: " + path);
-    }
 }
