@@ -15,7 +15,7 @@
         <junit-params.version>1.0.6</junit-params.version>
         <rest-assured.version>3.0.2</rest-assured.version>
         <com.squareup.retrofit2.version>2.2.0</com.squareup.retrofit2.version>
-        <poi.version>3.16</poi.version>
+        <poi.version>4.1.1</poi.version>
 
     </properties>
 
